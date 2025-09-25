@@ -1,0 +1,137 @@
+poweroff
+sudo apt update && sudo apt upgrade
+exit
+sudo apt install bzip2
+1451
+sudo apt install bzip2
+sudo apt install gcc make perl
+exit
+poweroff
+lsmod | greo vboxguestr
+lsmod | grep vboxguest
+sudo visudo
+poweroff
+sudo visudo
+sudo apt install neofetch
+exit
+apropos network
+apropos man
+sudo ip h
+apropos ip -h
+apropos network devices | grep ip
+id
+cat /etc/passwd
+sudo useradd uno
+id uno
+sudo adduser dos
+cat /etc/passwd | grep dos
+sudo groupadd prueba
+cat /etc/group
+cat /etc/group | grep prueba
+sudo usermod -aG prueba uno
+sudo usermod -aG prueba dos
+cat /etc/group | grep prueba
+sudo password dos
+sudo passwd dos
+userdel dos
+sudo userdel dos
+id dos
+id uno
+sudo userdel uno
+sudo groupdel prueba
+cat /etc/group | grep prueba
+pwd
+ls
+ls -a
+ls -h
+sudo mkdir temporalt1
+ls
+cd temporalt1/
+pwd
+cd..
+cd ..
+pwd
+tree
+sudo apt install tree
+tree
+rm temporalt1/
+sudo rm temporalt1/
+rm temporalt1/
+cd temporalt1/
+touch prueba
+sudo touch prueba
+ls
+touch pruebados
+sudo touch pruebados
+tree
+cd ..
+cd temporalt1/
+ps > pruebados
+sudo ps > pruebados
+cd ..
+ls -l
+sudo touch archivo.txt
+ls -l
+chmod u+rwx archivo.txt 
+chmod u+x archivo.txt 
+sudo delete archivo.txt 
+sudo remove archivo.txt 
+sudo chmod g+rwx archivo.txt 
+ls -l
+sudo chmod u-r archivo.txt 
+ls -l
+poweroff
+sudo visudo
+poweroff
+sudo apt install git
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+cd
+mkdir repogit
+cd repogit
+cd TP_AySO
+ls -l
+pwd
+cat/etc/os-release
+git clone [200~git@github.com:agustinolivieri99-cyber/TP_AySO.git~
+[200~cat ~/.ssh/id_ed25519.pub~
+git clone git@github.com:agustinolivieri99-cyber/TP_AySO.git
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+rm datos_usuario.txt
+ls
+cd TP_AySO
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+echo -e "Alumno: Agustin Olivieri\nDivisión: 315 Turno: Noche" > README.md
+ls
+git add.
+git add .
+git config --global user.name "agustinolivieri"
+git congig --global user.email "agustin.olivieri99@gmail.com"
+git config --global user.email "agustin.olivieri99@gmail.com"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+ls
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: añadiendo información de CPU"
+git add
+ls
+git add datos_usuarios.txt
+git commit -m "feat: añadiendo informacion de CPU"
+git push origin main
+rm README.md
+echo "Alumno: Agustin Olivieri" > README.md
+echo "Division: 315 Turno: noche" >> README.md
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
