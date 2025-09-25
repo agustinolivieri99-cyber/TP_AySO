@@ -1,2 +1,2 @@
 Alumno: Agustin Olivieri
-División: 315 Turno: Noche
+Division: 315 Turno: noche
