@@ -135,3 +135,24 @@ git add README.md datos_usuarios.txt
 git commit -m "ADD: Añadiendo Readme y datos de usuario"
 git push
 history -a
+cp ~/.bash_history ./historial_comandos_agustin.txt
+git add historial_comandos_agustin.txt
+git commit -m "feat: historial de comandos de Agustin"
+git push
+ls
+rm datos_usuario.txt
+ls
+git push
+exit
+cd TP_AySO
+cd ~/repogit/TP_AySO
+git rm historial_comando.txt
+ls
+ls git
+git rm datos_usuario.txt
+git ls
+git rm datos_usuario.txt
+git status
+git commit -m "chore: limpieza del repo (elimino archivo incorrecto)"
+git push origin main
+history -a
